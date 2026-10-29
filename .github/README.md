@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-snowball`](https://www.npmjs.com/package/@aws-sdk/client-snowball/v/3.1159.0).
+[`@aws-sdk/client-snowball`](https://www.npmjs.com/package/@aws-sdk/client-snowball/v/3.1160.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-snowball - [https://cloud-sdk-builds.github.io/?sdk=client-snowball](https://cloud-sdk-builds.github.io/?sdk=client-snowball)
-- @aws-sdk/client-snowball v3.1159.0 - [https://cloud-sdk-builds.github.io/?sdk=client-snowball&version=3.1159.0](https://cloud-sdk-builds.github.io/?sdk=client-snowball&version=3.1159.0)
+- @aws-sdk/client-snowball v3.1160.0 - [https://cloud-sdk-builds.github.io/?sdk=client-snowball&version=3.1160.0](https://cloud-sdk-builds.github.io/?sdk=client-snowball&version=3.1160.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-snowball@3.1159.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-snowball@3.1160.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-S/1+Y/KDikCyLJDKyF9jDi+WextqpDjY4A7CgBmdPgWwXLqp2cwf3WhFeAqKmqZ0
+sha384-AnSCDakpa4QZ3djthu60kT/9NtT4+i2fK3yy7l0mSU3MqIrYLAlmwKy7nGSzMotR
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-snowball": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-snowball@3.1159.0/index.min.mjs"
+            "@aws-sdk/client-snowball": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-snowball@3.1160.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-snowball@3.1159.0/index.min.mjs": "sha384-S/1+Y/KDikCyLJDKyF9jDi+WextqpDjY4A7CgBmdPgWwXLqp2cwf3WhFeAqKmqZ0"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-snowball@3.1160.0/index.min.mjs": "sha384-AnSCDakpa4QZ3djthu60kT/9NtT4+i2fK3yy7l0mSU3MqIrYLAlmwKy7nGSzMotR"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-snowball": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-snowball@3.1159.0/index.min.mjs"
+                        "@aws-sdk/client-snowball": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-snowball@3.1160.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-snowball@3.1159.0/index.min.mjs": "sha384-S/1+Y/KDikCyLJDKyF9jDi+WextqpDjY4A7CgBmdPgWwXLqp2cwf3WhFeAqKmqZ0"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-snowball@3.1160.0/index.min.mjs": "sha384-AnSCDakpa4QZ3djthu60kT/9NtT4+i2fK3yy7l0mSU3MqIrYLAlmwKy7nGSzMotR"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1159.0`)
+* Always pin to a specific version (`@3.1160.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-snowball/blob/refs/tags/3.1159.0/LICENSE
+https://github.com/cloud-sdk-builds/client-snowball/blob/refs/tags/3.1160.0/LICENSE
 ```
 
 ---
